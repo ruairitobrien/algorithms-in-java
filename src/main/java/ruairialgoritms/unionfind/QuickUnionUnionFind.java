@@ -1,4 +1,4 @@
-package com.ruairi.practice.algorithm.unionfind;
+package ruairialgoritms.unionfind;
 
 /**
  * Quick-union defect: Trees can get tall. Find too expensive (could be N array accesses)

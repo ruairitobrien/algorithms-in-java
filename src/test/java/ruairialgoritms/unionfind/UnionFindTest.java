@@ -1,10 +1,8 @@
-package com.ruairi.practice.algorithm.unionfind;
+package ruairialgoritms.unionfind;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by obrier3 on 26/08/2015.

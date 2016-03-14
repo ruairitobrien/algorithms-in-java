@@ -1,4 +1,4 @@
-package com.ruairi.practice.algorithm.unionfind;
+package ruairialgoritms.unionfind;
 
 /**
  * Quick-find defect: Union too expensive. Trees are flat, but too expensive to keep them flat.

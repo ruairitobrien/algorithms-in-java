@@ -1,4 +1,4 @@
-group 'com.ruairi.practice'
+group 'com.ruairialgoritms.practice'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
