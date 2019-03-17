@@ -1,7 +1,8 @@
-package ruairialgoritms.unionfind;
+package algoritms.unionfind;
 
 /**
- * Quick-union defect: Trees can get tall. Find too expensive (could be N array accesses)
+ * Quick-union defect: Trees can get tall. Find too expensive (could be N array
+ * accesses)
  */
 public class QuickUnionUnionFind implements UnionFind {
 
@@ -10,7 +11,7 @@ public class QuickUnionUnionFind implements UnionFind {
     public QuickUnionUnionFind(int n) {
         id = new int[n];
 
-        for(int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             id[i] = i;
         }
     }
@@ -29,7 +30,7 @@ public class QuickUnionUnionFind implements UnionFind {
     }
 
     private int root(int i) {
-        while(i != id[i]) {
+        while (i != id[i]) {
             i = id[i];
         }
         return i;

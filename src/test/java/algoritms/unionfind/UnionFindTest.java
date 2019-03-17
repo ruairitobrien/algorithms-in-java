@@ -1,8 +1,8 @@
-package ruairialgoritms.unionfind;
+package algoritms.unionfind;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;;
 
 /**
  * Created by obrier3 on 26/08/2015.
@@ -12,12 +12,12 @@ public class UnionFindTest {
     private int n = 10;
     private String[][] elements;
 
-    @Before
+    @BeforeEach
     public void setUp() throws Exception {
 
     }
 
-    @After
+    @AfterEach
     public void tearDown() throws Exception {
 
     }
