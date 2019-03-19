@@ -31,5 +31,6 @@ public class MergeSort {
         var mid = arrayToSort.length / 2;
         var a = sort(Arrays.copyOfRange(arrayToSort, 0, mid));
         var b = sort(Arrays.copyOfRange(arrayToSort, mid, arrayToSort.length));
+        return merge(a, b);
     }
 }
