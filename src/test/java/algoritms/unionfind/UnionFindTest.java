@@ -4,9 +4,6 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;;
 
-/**
- * Created by obrier3 on 26/08/2015.
- */
 public class UnionFindTest {
 
     private int n = 10;
